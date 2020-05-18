@@ -21,7 +21,7 @@ public class ColorlibMenuPage extends PageObject{
 				public WebElementFacade MenuFormValidation  ;
 				
 	// Form Validation - Label Informativo
-				@FindBy(xpath= "//*[@id='content']/div/div/div[1]/div/div/header/h5")
+				@FindBy(id="content")
 				public WebElementFacade LblFormValidation;
 				
 				
